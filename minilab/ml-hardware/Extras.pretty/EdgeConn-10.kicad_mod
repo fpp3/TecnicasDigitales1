@@ -1,0 +1,206 @@
+(footprint "EdgeConn-10"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 13.97 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7bb9d2b4-2380-454b-a524-4c8ccf7abcdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EdgeConn-10"
+		(at 0 -8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a77bfed-4c5d-4c86-9306-df33b5bad002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc29b68c-bad3-4163-a5e4-40862f64d785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a34e15e-0614-4cd7-a0eb-ae23fb689e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -19.05 -2.54)
+		(end -19.05 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0ffac05e-38a3-42c2-80a4-112c8fbbdf09")
+	)
+	(fp_line
+		(start -16.51 -6.35)
+		(end -16.51 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "821a97e6-4ba8-4368-9da5-14f4ac483116")
+	)
+	(fp_line
+		(start -16.51 -6.35)
+		(end 16.51 -6.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d29da0f4-faf8-4d4c-a4a9-7bb1d122929e")
+	)
+	(fp_line
+		(start -16.51 -2.54)
+		(end -19.05 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c3e07ff2-e007-417e-8ef0-93186579ac2b")
+	)
+	(fp_line
+		(start 16.51 -6.35)
+		(end 16.51 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "91df68bf-2cf0-428e-9ac6-bd0a12a0b281")
+	)
+	(fp_line
+		(start 16.51 -2.54)
+		(end 19.05 -2.54)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e7aa7d26-af6e-4ea2-b51f-0c46d1bb8790")
+	)
+	(fp_line
+		(start 19.05 -2.54)
+		(end 19.05 1.27)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "61d113ff-1967-45d2-ac14-668f6dec98fe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4d2c28b9-7778-4607-90c5-f255e414f125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" connect rect
+		(at -13.97 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "89cd5934-32e6-44a6-8a63-fb87bf346b9a")
+	)
+	(pad "1" connect rect
+		(at 13.97 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ee365631-fa93-459b-9ef7-bcb1d2c7939f")
+	)
+	(pad "2" connect rect
+		(at 11.43 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "810445a4-db19-4a5e-a179-02c493198076")
+	)
+	(pad "3" connect rect
+		(at 8.89 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dcf5f9cc-a642-4f80-b74d-28002879a3fa")
+	)
+	(pad "4" connect rect
+		(at 6.35 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "772c23f5-9ede-44fc-8e12-f262c03ccdcc")
+	)
+	(pad "5" connect rect
+		(at 3.81 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "34500991-46fc-4341-b05f-753d2e47e2b9")
+	)
+	(pad "6" connect rect
+		(at 0 -3.81 270)
+		(size 5 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e2531b8a-9d9b-4185-8a1e-776ad294a26c")
+	)
+	(pad "7" connect rect
+		(at -3.81 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "18e84e55-9ec4-47d2-a5de-415e3bf5d0e1")
+	)
+	(pad "8" connect rect
+		(at -6.35 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "737f83b7-e4a0-4a0d-86bc-3141c04e028f")
+	)
+	(pad "9" connect rect
+		(at -8.89 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d0eb14a4-3e88-4f57-9159-6290dd4e9fcd")
+	)
+	(pad "10" connect rect
+		(at -11.43 -3.81 270)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask")
+		(uuid "8a6e0061-db49-4e1d-917f-642bdefa68fa")
+	)
+	(embedded_fonts no)
+)

@@ -778,7 +778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1352abe0-a884-4e79-aa69-51e9cdd09abc")
-		(property "Reference" "R23"
+		(property "Reference" "R17"
 			(at 176.53 124.4599 0)
 			(effects
 				(font
@@ -796,7 +796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 172.212 125.73 90)
 			(effects
 				(font
@@ -831,8 +831,8 @@
 		)
 		(instances
 			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/6c358c04-6120-418c-ae6f-89bc5b99575c"
-					(reference "R23")
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/8be39316-7f63-43eb-b9fa-7cc8c702fc5c"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -848,7 +848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962717f2-6a3b-48d4-89cb-1a2e20fba3df")
-		(property "Reference" "D8"
+		(property "Reference" "D1"
 			(at 177.8 114.6174 90)
 			(effects
 				(font
@@ -866,7 +866,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_Rectangular_W5.0mm_H2.0mm"
 			(at 173.99 114.3 0)
 			(effects
 				(font
@@ -909,9 +909,9 @@
 			(uuid "d7806f9f-3e1f-4692-a9f3-d511eb33ee71")
 		)
 		(instances
-			(project ""
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/6c358c04-6120-418c-ae6f-89bc5b99575c"
-					(reference "D8")
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/8be39316-7f63-43eb-b9fa-7cc8c702fc5c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -942,7 +942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Extras:DC-DC_buck"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -982,8 +982,8 @@
 			(uuid "818dd0c3-800e-4ef8-9982-8a455f46e1e0")
 		)
 		(instances
-			(project ""
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/6c358c04-6120-418c-ae6f-89bc5b99575c"
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/8be39316-7f63-43eb-b9fa-7cc8c702fc5c"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1000,7 +1000,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f50fee9b-20da-4d43-a387-ba20df9cbbd9")
-		(property "Reference" "J3"
+		(property "Reference" "J22"
 			(at 163.83 114.2999 90)
 			(effects
 				(font
@@ -1018,7 +1018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 166.37 115.57 0)
 			(effects
 				(font
@@ -1052,9 +1052,9 @@
 			(uuid "82b3ad9a-0a74-441c-b6bc-414ac7b3cae2")
 		)
 		(instances
-			(project ""
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/6c358c04-6120-418c-ae6f-89bc5b99575c"
-					(reference "J3")
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/8be39316-7f63-43eb-b9fa-7cc8c702fc5c"
+					(reference "J22")
 					(unit 1)
 				)
 			)

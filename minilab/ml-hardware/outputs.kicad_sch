@@ -277,156 +277,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 163.83 120.65)
@@ -478,16 +328,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 120.65) (xy 114.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a751fde-f579-4fc5-8e29-5f7a1897da03")
-	)
-	(wire
-		(pts
 			(xy 196.85 64.77) (xy 196.85 68.58)
 		)
 		(stroke
@@ -528,26 +368,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 78.74) (xy 114.3 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104c28fe-1993-4048-9b6b-9b9f89504a42")
-	)
-	(wire
-		(pts
-			(xy 128.27 78.74) (xy 130.81 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114e7b6a-e1a0-4404-b0fc-62cb226aeb8e")
-	)
-	(wire
-		(pts
 			(xy 196.85 120.65) (xy 196.85 123.19)
 		)
 		(stroke
@@ -555,6 +375,16 @@
 			(type default)
 		)
 		(uuid "13062bfd-8d55-4d48-af76-4b0b35e5ecef")
+	)
+	(wire
+		(pts
+			(xy 91.44 120.65) (xy 97.79 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffd8f9e-f8c7-4d33-bba1-47e1ee884c6e")
 	)
 	(wire
 		(pts
@@ -568,13 +398,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 78.74) (xy 147.32 92.71)
+			(xy 124.46 78.74) (xy 130.81 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29748293-1c62-4263-931d-0370f586bccb")
+		(uuid "234ba6a8-8bbf-4ba7-a874-1cc13da54776")
 	)
 	(wire
 		(pts
@@ -608,6 +438,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 78.74) (xy 196.85 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3766540d-725a-4fe9-b351-51a4fe17a312")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 163.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2c71fc-8541-4af3-b37c-5df9a5d29573")
+	)
+	(wire
+		(pts
 			(xy 130.81 64.77) (xy 130.81 68.58)
 		)
 		(stroke
@@ -615,16 +465,6 @@
 			(type default)
 		)
 		(uuid "4b72cb5e-824f-4683-88cf-a24464121f3f")
-	)
-	(wire
-		(pts
-			(xy 180.34 120.65) (xy 180.34 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "536ed623-b8b5-4813-a139-5a5fd4a46126")
 	)
 	(wire
 		(pts
@@ -638,16 +478,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 120.65) (xy 114.3 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e49257f-a5a8-4d9f-b056-07a409824538")
-	)
-	(wire
-		(pts
 			(xy 130.81 120.65) (xy 130.81 118.11)
 		)
 		(stroke
@@ -655,16 +485,6 @@
 			(type default)
 		)
 		(uuid "5ef31a36-a5fb-4094-97f8-b834d1c69aa9")
-	)
-	(wire
-		(pts
-			(xy 114.3 78.74) (xy 114.3 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "638a3cf5-d390-4c0f-ac7a-27919eb4defc")
 	)
 	(wire
 		(pts
@@ -738,26 +558,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 78.74) (xy 147.32 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a68b6a-2df7-4fb4-bcb5-2472c27b51db")
-	)
-	(wire
-		(pts
-			(xy 81.28 120.65) (xy 81.28 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "892a4b08-215b-4c48-a338-ddf03835cfc6")
-	)
-	(wire
-		(pts
 			(xy 130.81 78.74) (xy 130.81 76.2)
 		)
 		(stroke
@@ -765,6 +565,26 @@
 			(type default)
 		)
 		(uuid "8efba8e3-d248-4ee2-a927-299218f21d71")
+	)
+	(wire
+		(pts
+			(xy 190.5 120.65) (xy 196.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912f19e7-da36-46a5-9eae-c3d81c69a9c8")
+	)
+	(wire
+		(pts
+			(xy 124.46 120.65) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cce37b-8f99-4e9c-a383-e281f5651f24")
 	)
 	(wire
 		(pts
@@ -778,16 +598,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 81.28 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b94b6f-7a82-4917-a6a0-37d426f14698")
-	)
-	(wire
-		(pts
 			(xy 130.81 78.74) (xy 130.81 81.28)
 		)
 		(stroke
@@ -795,16 +605,6 @@
 			(type default)
 		)
 		(uuid "9f15a3ec-691c-41f9-9d49-92b3785e2cfe")
-	)
-	(wire
-		(pts
-			(xy 184.15 78.74) (xy 180.34 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0c2f9d0-e7f0-4074-85ec-e8f3b9196e64")
 	)
 	(wire
 		(pts
@@ -825,16 +625,6 @@
 			(type default)
 		)
 		(uuid "a352728a-0e7d-4f0c-bf4c-2bdd8f577d0c")
-	)
-	(wire
-		(pts
-			(xy 85.09 78.74) (xy 81.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d731e3-08a0-4324-8a9c-80f47566bf72")
 	)
 	(wire
 		(pts
@@ -878,36 +668,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 120.65) (xy 81.28 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d46678-e79e-402d-9ead-19a6a94e1cdb")
-	)
-	(wire
-		(pts
-			(xy 128.27 120.65) (xy 130.81 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba519504-c955-4bd2-9761-5d20423a55c4")
-	)
-	(wire
-		(pts
-			(xy 194.31 120.65) (xy 196.85 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcf103cf-ef15-4e04-983c-01c427701cc9")
-	)
-	(wire
-		(pts
 			(xy 130.81 120.65) (xy 130.81 123.19)
 		)
 		(stroke
@@ -915,36 +675,6 @@
 			(type default)
 		)
 		(uuid "c1f9524a-9efd-40bd-9559-e5f904d88b09")
-	)
-	(wire
-		(pts
-			(xy 161.29 78.74) (xy 163.83 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31155c5-5ccf-48e2-950f-91e726a9a36b")
-	)
-	(wire
-		(pts
-			(xy 180.34 78.74) (xy 180.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c6d5d1-75c9-4c7b-850e-7672f8f73a72")
-	)
-	(wire
-		(pts
-			(xy 194.31 78.74) (xy 196.85 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c451645e-d56f-4fac-85b4-f007c4bc2869")
 	)
 	(wire
 		(pts
@@ -968,23 +698,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 120.65) (xy 147.32 120.65)
+			(xy 91.44 78.74) (xy 97.79 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce642f8d-1d3a-429d-a79f-3b720b32c08a")
-	)
-	(wire
-		(pts
-			(xy 95.25 78.74) (xy 97.79 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf471e71-412d-4369-886f-ac00560967d5")
+		(uuid "d033e1a9-9c61-49e7-89b4-27eeef6318b6")
 	)
 	(wire
 		(pts
@@ -1048,26 +768,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 120.65) (xy 180.34 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93f82e5-14e0-4ddb-9328-91f53cb2f862")
-	)
-	(wire
-		(pts
-			(xy 147.32 120.65) (xy 147.32 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1e744e-f136-4da9-a2ed-c17165e62dc6")
-	)
-	(wire
-		(pts
 			(xy 163.83 120.65) (xy 163.83 123.19)
 		)
 		(stroke
@@ -1078,13 +778,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 120.65) (xy 97.79 120.65)
+			(xy 157.48 78.74) (xy 163.83 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4f84c23-c843-4f0c-9b25-ba8dbb0372d9")
+		(uuid "f42963cc-adbb-45b5-b7a9-a830796a8186")
 	)
 	(wire
 		(pts
@@ -1106,15 +806,16 @@
 		)
 		(uuid "fba98b3d-103f-4386-bdd8-393b6617575a")
 	)
-	(wire
-		(pts
-			(xy 161.29 120.65) (xy 163.83 120.65)
+	(hierarchical_label "Bi3"
+		(shape input)
+		(at 190.5 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcfc1282-e803-4009-94d7-9f61c3eb65cf")
+		(uuid "029fc255-19a7-4bed-a95d-c42dfaa5eee7")
 	)
 	(hierarchical_label "O2"
 		(shape output)
@@ -1127,16 +828,16 @@
 		)
 		(uuid "075bb7e2-0211-40d1-894a-898d465b0af2")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "Bi7"
 		(shape input)
-		(at 180.34 92.71 270)
+		(at 190.5 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0ebb1f51-22eb-473a-ae5a-8025c8bc49b4")
+		(uuid "0a86490a-c25a-492e-86a1-20f3bce2ae18")
 	)
 	(hierarchical_label "O6"
 		(shape output)
@@ -1171,6 +872,17 @@
 		)
 		(uuid "20eba9b1-a436-4a64-84cf-a26b5b03a2ac")
 	)
+	(hierarchical_label "Bi2"
+		(shape input)
+		(at 157.48 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27479fd6-ca97-4a26-914e-843bf5a947f3")
+	)
 	(hierarchical_label "+5V"
 		(shape input)
 		(at 163.83 64.77 90)
@@ -1182,16 +894,16 @@
 		)
 		(uuid "2b7944f8-6fe0-435d-a365-ce0fb015b6c5")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "Bi0"
 		(shape input)
-		(at 147.32 92.71 270)
+		(at 91.44 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "2d7f4cb1-f990-4b52-b9a2-56d5cf9d4328")
+		(uuid "332b46ac-c77c-462b-bba6-7ddccf34b272")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1228,28 +940,6 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 81.28 134.62 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "68f5c119-5b4b-47fe-a6e4-d7777cdd4461")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 180.34 134.62 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69c52264-779b-43a1-99ac-d87fc4583898")
-	)
-	(hierarchical_label "GND"
-		(shape input)
 		(at 97.79 134.62 270)
 		(effects
 			(font
@@ -1281,6 +971,17 @@
 		)
 		(uuid "790be456-b456-40f9-a81b-d888b0fbacac")
 	)
+	(hierarchical_label "Bi1"
+		(shape input)
+		(at 124.46 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ccd887c-0ed2-4d0a-9135-10a2194bc97f")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 97.79 92.71 270)
@@ -1303,17 +1004,6 @@
 		)
 		(uuid "84610abe-7e1a-4176-8438-1475695326bb")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 81.28 92.71 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8b1ff8cf-9175-493a-babb-c38b5bdf6276")
-	)
 	(hierarchical_label "O1"
 		(shape output)
 		(at 137.16 78.74 0)
@@ -1335,17 +1025,6 @@
 			(justify left)
 		)
 		(uuid "95099b09-103a-4394-a110-2f1381a492db")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 114.3 134.62 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98aa159a-97f8-47db-b165-1ca0960b2b19")
 	)
 	(hierarchical_label "+5V"
 		(shape input)
@@ -1390,6 +1069,28 @@
 			(justify right)
 		)
 		(uuid "ba5e30ab-1dfb-48fb-abe4-8f2611cbb075")
+	)
+	(hierarchical_label "Bi5"
+		(shape input)
+		(at 124.46 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb74504c-174f-421c-8b5d-530fd3ec5e47")
+	)
+	(hierarchical_label "Bi4"
+		(shape input)
+		(at 91.44 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be0ef3cf-14e3-4f7a-ba5a-a83bd7919475")
 	)
 	(hierarchical_label "O4"
 		(shape output)
@@ -1446,27 +1147,16 @@
 		)
 		(uuid "e31f0d67-83bb-4095-9f5d-23698dae981f")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "Bi6"
 		(shape input)
-		(at 114.3 92.71 270)
+		(at 157.48 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fd488cfc-8dcf-417b-8359-c731ce8fea16")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 147.32 134.62 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fe090eeb-e7b9-4dfe-93e4-5275fa868f37")
+		(uuid "fb1bb50e-3ad5-4998-8238-4f657da38bc4")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1496,7 +1186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 96.012 72.39 90)
 			(effects
 				(font
@@ -1548,7 +1238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c38d3b-dbd6-4911-9585-98a5e083d51b")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 134.62 83.8199 0)
 			(effects
 				(font
@@ -1566,7 +1256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 131.7752 88.9 0)
 			(effects
 				(font
@@ -1602,7 +1292,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -1618,7 +1308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e5feea8-5b3f-48e0-a9ba-f7115ae986e0")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 133.35 113.0299 0)
 			(effects
 				(font
@@ -1636,7 +1326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 129.032 114.3 90)
 			(effects
 				(font
@@ -1672,7 +1362,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1706,7 +1396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 197.8152 130.81 0)
 			(effects
 				(font
@@ -1758,7 +1448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a2acfa5-70b6-4870-9f64-d03a5d5533c1")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 166.37 71.1199 0)
 			(effects
 				(font
@@ -1776,7 +1466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 162.052 72.39 90)
 			(effects
 				(font
@@ -1812,75 +1502,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 189.23 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ad79a9f-a7a2-47b4-bfa9-791db6475be4")
-		(property "Reference" "SW4"
-			(at 189.23 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 189.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 189.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "068b1192-faa6-44a5-9ee0-293b62257e8b")
-		)
-		(pin "2"
-			(uuid "6c061e58-446c-4e00-a8b0-48174626a9a0")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1914,7 +1536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 195.072 114.3 90)
 			(effects
 				(font
@@ -1966,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52703f1e-9c98-44c3-80ac-d4386ffce141")
-		(property "Reference" "R5"
+		(property "Reference" "R2"
 			(at 100.33 113.0299 0)
 			(effects
 				(font
@@ -1984,7 +1606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 96.012 114.3 90)
 			(effects
 				(font
@@ -2020,7 +1642,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "R5")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2036,7 +1658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f565011-f3d1-4427-86bd-8d7d2b0a6393")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 101.6 125.7299 0)
 			(effects
 				(font
@@ -2054,7 +1676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 98.7552 130.81 0)
 			(effects
 				(font
@@ -2090,143 +1712,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 189.23 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71963991-a2e8-468d-9720-938a4f625770")
-		(property "Reference" "SW8"
-			(at 189.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 189.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 189.23 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2898c5dc-73c5-401b-b75a-259dca02bb7c")
-		)
-		(pin "2"
-			(uuid "d1114cc4-31df-4d38-ba88-31aa4297193d")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 90.17 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f73d32d-36c5-4fe1-a254-17fc8054ffb0")
-		(property "Reference" "SW1"
-			(at 90.17 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7ed54ad-d43d-4bf9-a275-c3ed8330c68f")
-		)
-		(pin "2"
-			(uuid "659f4403-6131-46dc-9085-5c8a3dbd5ae1")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2242,7 +1728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90314380-5851-4c47-bdfd-b6b20e0a129b")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 167.64 83.8199 0)
 			(effects
 				(font
@@ -2260,7 +1746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 164.7952 88.9 0)
 			(effects
 				(font
@@ -2296,7 +1782,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2312,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9929ca5f-ab2b-474e-8743-ee9f1a65cee3")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 200.66 83.8199 0)
 			(effects
 				(font
@@ -2330,7 +1816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 197.8152 88.9 0)
 			(effects
 				(font
@@ -2366,75 +1852,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c7aa02f-fc89-464d-b3dc-98a9a05b68b4")
-		(property "Reference" "SW6"
-			(at 123.19 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 123.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bb58b1b8-2f42-43e5-80e6-eefa694c8bb0")
-		)
-		(pin "2"
-			(uuid "4586f9e7-cba0-4dc2-834e-4d6f37e785a3")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2450,7 +1868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a18c1ac1-1be5-4a05-992e-1dee65df791a")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 133.35 71.1199 0)
 			(effects
 				(font
@@ -2468,7 +1886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 129.032 72.39 90)
 			(effects
 				(font
@@ -2504,7 +1922,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2520,7 +1938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44da2ce-7526-4982-9354-5f756ff92050")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 199.39 71.1199 0)
 			(effects
 				(font
@@ -2538,7 +1956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 195.072 72.39 90)
 			(effects
 				(font
@@ -2574,211 +1992,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 123.19 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b274e4b6-3c29-4ceb-8151-ea58189a7437")
-		(property "Reference" "SW2"
-			(at 123.19 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 123.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1f8720a-0e71-4d5d-af04-164760f792e2")
-		)
-		(pin "2"
-			(uuid "6563c844-d4a0-4fa4-91e0-81057f043792")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 156.21 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c85d9215-1476-4582-b859-85e493e4f856")
-		(property "Reference" "SW3"
-			(at 156.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 156.21 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 156.21 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2436ebff-391b-4a77-af94-5b1201269799")
-		)
-		(pin "2"
-			(uuid "eecc4252-3df9-45bf-880b-cc2ac5abe0c6")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 156.21 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d60dce47-1229-45df-98a4-6e43a4330b32")
-		(property "Reference" "SW7"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 156.21 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4ebbce5-bbf1-487f-a31c-0a4f1a289bd3")
-		)
-		(pin "2"
-			(uuid "446336b7-843e-4d37-bd7d-b10a60638aa9")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW7")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2794,7 +2008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15c8be1-8c2d-4c17-a1a1-711581c03567")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 167.64 125.7299 0)
 			(effects
 				(font
@@ -2812,7 +2026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 164.7952 130.81 0)
 			(effects
 				(font
@@ -2848,7 +2062,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2864,7 +2078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a52f83-26e7-4aae-be10-48d7861853bf")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 134.62 125.7299 0)
 			(effects
 				(font
@@ -2882,7 +2096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 131.7752 130.81 0)
 			(effects
 				(font
@@ -2918,7 +2132,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2952,7 +2166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 98.7552 88.9 0)
 			(effects
 				(font
@@ -2995,74 +2209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 90.17 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eee6b99d-5eb0-4b67-a23a-942fe72b6ba5")
-		(property "Reference" "SW5"
-			(at 90.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 90.17 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2e55e9e-0e0d-4431-b86a-54b5eeebee2b")
-		)
-		(pin "2"
-			(uuid "fcbb7950-385b-4039-b69e-32943593633c")
-		)
-		(instances
-			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 163.83 114.3 0)
 		(unit 1)
@@ -3072,7 +2218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe944a40-a162-4079-8c40-7276b82febf5")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 166.37 113.0299 0)
 			(effects
 				(font
@@ -3090,7 +2236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 162.052 114.3 90)
 			(effects
 				(font
@@ -3126,7 +2272,7 @@
 		(instances
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/9c69e985-f65d-4e1d-9526-fc7ecab99027"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)

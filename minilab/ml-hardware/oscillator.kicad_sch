@@ -1204,7 +1204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4b91f1-25e4-4f7a-851d-cd3df4c03c60")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 180.34 99.3774 90)
 			(effects
 				(font
@@ -1222,7 +1222,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_Rectangular_W5.0mm_H2.0mm"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -1259,15 +1259,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c8c956ff-ef4e-4289-bb40-644b02640569")
+			(uuid "beb6ceed-48eb-43d0-956b-7893847b794b")
 		)
 		(pin "1"
-			(uuid "db4c1bea-e71b-400f-9935-5bb72451cf4c")
+			(uuid "74bcef30-71f8-4cc4-bb87-7663499aacb2")
 		)
 		(instances
-			(project ""
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/cee87e4e-7aee-4a91-91ad-8832d36e7e19"
-					(reference "D7")
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1301,7 +1301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 152.4 99.06 0)
 			(effects
 				(font
@@ -1329,17 +1329,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "a0e16505-44a7-4a57-a3b5-593ddfb4157c")
+			(uuid "31cd4927-ff9f-48ce-93c6-c4bacca29f68")
 		)
 		(pin "2"
-			(uuid "62eea83e-f591-43b8-8a63-63afaeb48d44")
+			(uuid "cd6f3724-4a99-4520-b4f4-053a59653561")
 		)
 		(pin "1"
-			(uuid "9e0993b2-c59e-4617-b5f3-3e229838016f")
+			(uuid "8a85299a-d5ca-4340-bd9e-8af781941334")
 		)
 		(instances
 			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/cee87e4e-7aee-4a91-91ad-8832d36e7e19"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
 					(reference "RV1")
 					(unit 1)
 				)
@@ -1356,7 +1356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90ffea3b-df2b-4e0b-a4ea-e256f834c16a")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 154.94 80.0099 0)
 			(effects
 				(font
@@ -1374,7 +1374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 150.622 81.28 90)
 			(effects
 				(font
@@ -1402,15 +1402,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d72cc7ed-321b-4c9a-abf7-a02c57f49b47")
+			(uuid "d916f56c-3931-4613-99ac-6fb5c2e36110")
 		)
 		(pin "1"
-			(uuid "ef8c7ab2-9a63-4c90-bf12-3536c5710064")
+			(uuid "ec50e909-58de-4026-97e2-0f89365ba2e7")
 		)
 		(instances
-			(project ""
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/cee87e4e-7aee-4a91-91ad-8832d36e7e19"
-					(reference "R21")
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1444,7 +1444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
 			(at 153.3652 116.84 0)
 			(effects
 				(font
@@ -1472,14 +1472,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "de4b3a82-852a-48ed-83a5-70b98f2c365a")
+			(uuid "5d473397-5cde-4463-8372-aefebe43dd61")
 		)
 		(pin "1"
-			(uuid "eb15baa4-5fc6-4cad-9d0b-0b013989144c")
+			(uuid "0af400c7-533f-41c2-a3ef-5e6684e92057")
 		)
 		(instances
-			(project ""
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/cee87e4e-7aee-4a91-91ad-8832d36e7e19"
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
 					(reference "C9")
 					(unit 1)
 				)
@@ -1542,32 +1542,32 @@
 			)
 		)
 		(pin "5"
-			(uuid "d98683c2-68bb-4c6e-a171-5547798b77a2")
+			(uuid "b0879bfb-33bb-419a-83ea-2e613852bbbb")
 		)
 		(pin "6"
-			(uuid "76bd9caf-4e77-4d5a-a51e-34240c63c683")
+			(uuid "bc430f1e-cba2-4789-84b7-864f176c119f")
 		)
 		(pin "2"
-			(uuid "cc0782e2-a897-48a3-90ea-72fcfc2ecaff")
+			(uuid "eb6bf29a-cfcf-4755-8222-972b00e7ed1d")
 		)
 		(pin "8"
-			(uuid "b6b8a3b0-2404-4cbd-9865-2ef717c43dcb")
+			(uuid "2bd01acd-4121-4fd8-90a3-f30045ad8554")
 		)
 		(pin "1"
-			(uuid "e2a5b4fa-940e-47ac-bba6-d0b79db82687")
+			(uuid "b6ca2c94-c03a-46c5-be02-b1f9528da8de")
 		)
 		(pin "7"
-			(uuid "261960af-262c-4d64-93a8-93da4cced401")
+			(uuid "68db64c1-96a6-4859-8906-b3e6da662641")
 		)
 		(pin "4"
-			(uuid "26886139-eedb-4cc7-81fb-93786a88e309")
+			(uuid "0dc42576-5e37-408c-a449-5dbb6ad84c03")
 		)
 		(pin "3"
-			(uuid "6b04c9de-0248-4622-ba68-c9953f9a56dd")
+			(uuid "c958110f-4918-40a2-9fce-8d717a9f6c6f")
 		)
 		(instances
 			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/cee87e4e-7aee-4a91-91ad-8832d36e7e19"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
 					(reference "U2")
 					(unit 1)
 				)
@@ -1584,7 +1584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f180e269-8669-4ee5-8662-565f4fd07ebf")
-		(property "Reference" "R22"
+		(property "Reference" "R19"
 			(at 179.07 111.7599 0)
 			(effects
 				(font
@@ -1602,7 +1602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 174.752 113.03 90)
 			(effects
 				(font
@@ -1630,15 +1630,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c41da88-428a-41f1-b639-31a8e7a58c7f")
+			(uuid "8c4e2e0a-d9f0-49d1-9c40-d990e7146950")
 		)
 		(pin "1"
-			(uuid "b939a21b-fd94-419b-8565-3587487a8859")
+			(uuid "23a93296-773a-48c9-bcbf-1db97a705eee")
 		)
 		(instances
 			(project "ml-hardware"
-				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/cee87e4e-7aee-4a91-91ad-8832d36e7e19"
-					(reference "R22")
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
+					(reference "R19")
 					(unit 1)
 				)
 			)
