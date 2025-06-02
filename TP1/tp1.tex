@@ -20,7 +20,7 @@
 
 
 \newpage
-
+\centering
 \begin{tabular}{|c|c|c|c|c||c|c|c|c|}
 \hline
 \multicolumn{5}{|c||}{Entrada BCD} & \multicolumn{4}{c|}{Salida XS-3} \\
@@ -39,7 +39,6 @@ A & B & C & D & & S3 & S2 & S1 & S0 \\
 \hline
 \end{tabular}
 
-
 \begin{minipage}[t]{0.48\textwidth}
     \centering
     \begin{karnaugh-map}[4][4][1][$CD$][$AB$]
@@ -54,7 +53,9 @@ A & B & C & D & & S3 & S2 & S1 & S0 \\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.48\textwidth}
-        \vspace{3.5cm} \end{minipage}
+    \centering
+    $S3=A+B\cdot(C+D)$
+\end{minipage}
 
 \vspace{1cm}
 
@@ -62,10 +63,10 @@ A & B & C & D & & S3 & S2 & S1 & S0 \\
 \begin{minipage}[t]{0.48\textwidth}
     \centering
     \begin{karnaugh-map}[4][4][1][$CD$][$AB$]
-        \minterms{1,2,3,4}
-        \maxterms{0,5,6,7,8,9}
+        \minterms{1,2,3,4,9}
+        \maxterms{0,5,6,7,8}
         \autoterms[X]
-        \implicant{1}{3}
+        \implicantedge{1}{3}{9}{11}
         \implicantedge{3}{2}{11}{10}
         \implicant{4}{12}
     \end{karnaugh-map}
@@ -73,10 +74,9 @@ A & B & C & D & & S3 & S2 & S1 & S0 \\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.48\textwidth}
-    \vspace{3.5cm}
+    \centering
+    $S2=\overline{B}\cdot (C +  D) + B \cdot \overline{C} \cdot \overline{D}$
 \end{minipage}
-
-\vspace{1cm}
 
 \noindent
 \begin{minipage}[t]{0.48\textwidth}
@@ -92,10 +92,9 @@ A & B & C & D & & S3 & S2 & S1 & S0 \\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.48\textwidth}
-    \vspace{3.5cm}
+    \centering
+    $S1=C \cdot D + \overline{C} \cdot \overline{D}$
 \end{minipage}
-
-\vspace{1cm}
 
 \noindent
 \begin{minipage}[t]{0.48\textwidth}
@@ -110,8 +109,12 @@ A & B & C & D & & S3 & S2 & S1 & S0 \\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.48\textwidth}
-    \vspace{3.5cm}
+    \centering
+    $S0=\overline{D}$
 \end{minipage}
+
+
+
 
 \end{document}
 
