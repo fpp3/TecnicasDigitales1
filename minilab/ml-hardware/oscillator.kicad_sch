@@ -878,6 +878,12 @@
 		(uuid "030197f8-6197-4f35-b10f-29e4da90db23")
 	)
 	(junction
+		(at 144.78 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89129580-58fe-4968-b5a5-a9738564e38e")
+	)
+	(junction
 		(at 152.4 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -889,13 +895,15 @@
 		(color 0 0 0 0)
 		(uuid "daa34341-3e91-4ed2-aa32-3816464aa81c")
 	)
-	(no_connect
-		(at 116.84 92.71)
-		(uuid "6f48e649-ca98-481f-ace6-652c7f110695")
-	)
-	(no_connect
-		(at 142.24 97.79)
-		(uuid "bd986b31-cb1a-4e0c-833a-94103aef2635")
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066125b1-64b5-4480-94fd-05fb0a9635c6")
 	)
 	(wire
 		(pts
@@ -906,6 +914,16 @@
 			(type default)
 		)
 		(uuid "0d193291-efea-4a22-80bc-14db98300c80")
+	)
+	(wire
+		(pts
+			(xy 144.78 105.41) (xy 152.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f281957-d363-4c26-9bae-65ea4391fcba")
 	)
 	(wire
 		(pts
@@ -949,6 +967,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347d9827-6ed3-47c2-b38b-d3cecafc5ecb")
+	)
+	(wire
+		(pts
 			(xy 147.32 99.06) (xy 147.32 92.71)
 		)
 		(stroke
@@ -966,6 +994,26 @@
 			(type default)
 		)
 		(uuid "4829b7cc-5de9-453b-b5bb-61deca5eaa84")
+	)
+	(wire
+		(pts
+			(xy 100.33 102.87) (xy 100.33 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53eab6f5-5eff-4bfc-b602-d8b760c36f52")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5763e75e-047e-4eb9-bfba-d540227c4bd9")
 	)
 	(wire
 		(pts
@@ -1029,6 +1077,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 97.79) (xy 144.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9646b25c-bbd9-4c7c-8088-5e1f8e925fe3")
+	)
+	(wire
+		(pts
 			(xy 152.4 102.87) (xy 152.4 105.41)
 		)
 		(stroke
@@ -1069,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 105.41) (xy 152.4 105.41)
+			(xy 111.76 105.41) (xy 144.78 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1149,6 +1207,17 @@
 			(justify right)
 		)
 		(uuid "5de5579f-fdf9-467c-8c4d-317435ca80bf")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 100.33 120.65 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f688829-66c3-41bf-8094-7c05d458b7a9")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -1514,7 +1583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 			(at 146.05 102.87 0)
 			(effects
 				(font
@@ -1569,6 +1638,76 @@
 			(project "ml-hardware"
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b11681-c18c-4be8-a361-e276aea14e44")
+		(property "Reference" "C10"
+			(at 104.14 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 104.14 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm"
+			(at 101.2952 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d473bef1-7605-4bf8-9cc0-8a1d56dbe65a")
+		)
+		(pin "1"
+			(uuid "fa9e8a87-bfa4-404f-98f8-aade324519ea")
+		)
+		(instances
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419/bc259005-a59b-4e7b-a399-bea54a015299"
+					(reference "C10")
 					(unit 1)
 				)
 			)

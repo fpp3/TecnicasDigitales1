@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/run/user/1000/gvfs/ftp:host=192.168.122.81/ml-hardware/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -664,6 +664,10 @@
     [
       "c8e92764-6d56-4fd9-a842-97ca096375d7",
       "Leds"
+    ],
+    [
+      "50d494f2-d484-43a0-8d2a-b6d7f45e4af0",
+      "Entrada alimentacion"
     ]
   ],
   "text_variables": {}
