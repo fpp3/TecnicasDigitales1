@@ -150,6 +150,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 90.17) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9565e2-ef8c-4e62-b428-68d200be6bac")
+	)
+	(wire
+		(pts
 			(xy 139.7 87.63) (xy 139.7 100.33)
 		)
 		(stroke
@@ -167,6 +177,27 @@
 			(type default)
 		)
 		(uuid "87d8f165-5e7e-4bec-bf0b-1c325ede7474")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 148.59 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2acbb7-b830-4be6-9b44-aac65d418c55")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 151.13 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50300fed-205c-4b4f-9062-f2c5fbabe138")
 	)
 	(hierarchical_label "+Vin"
 		(shape input)
@@ -189,6 +220,87 @@
 			(justify left)
 		)
 		(uuid "de7f7f3e-0c3c-49df-b619-f640d7bb3de4")
+	)
+	(hierarchical_label "+Vin"
+		(shape input)
+		(at 148.59 87.63 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa0ab90e-459a-4a28-bb1a-167643642e23")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 148.59 105.41 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "820f29b0-4ace-4f1f-a0a4-6671a4619eaa")
+		(property "Reference" "J26"
+			(at 146.05 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 146.05 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61a4956e-6830-4524-87c0-3f18c420cd16")
+		)
+		(pin "1"
+			(uuid "fc576ecd-39c6-4199-b650-ad92fca67c37")
+		)
+		(instances
+			(project ""
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/50d494f2-d484-43a0-8d2a-b6d7f45e4af0"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")

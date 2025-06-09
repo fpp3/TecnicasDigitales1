@@ -377,4 +377,15 @@
 		(uuid "6a80b8cf-7142-4101-98fa-ce0ffea026f7")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Extras.pretty/ss12f44[1].STEP"
+		(offset
+			(xyz -5.6 -2.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

@@ -1089,10 +1089,22 @@
 		)
 	)
 	(junction
+		(at 139.7 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a60b29-8a7c-4e51-9b32-41d4638745a1")
+	)
+	(junction
 		(at 247.65 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5c37bb0-fe9d-40fb-918f-9c22746b66be")
+	)
+	(junction
+		(at 139.7 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfd1d7d9-6789-458a-97e2-fcad98516b7a")
 	)
 	(wire
 		(pts
@@ -1116,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 113.03) (xy 143.51 118.11)
+			(xy 139.7 113.03) (xy 139.7 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 120.65) (xy 143.51 120.65)
+			(xy 135.89 120.65) (xy 139.7 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 121.92) (xy 123.19 127)
+			(xy 119.38 121.92) (xy 119.38 127)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 116.84) (xy 125.73 116.84)
+			(xy 115.57 116.84) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 121.92) (xy 123.19 121.92)
+			(xy 115.57 121.92) (xy 119.38 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 120.65) (xy 143.51 127)
+			(xy 139.7 120.65) (xy 139.7 127)
 		)
 		(stroke
 			(width 0)
@@ -1686,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 118.11) (xy 139.7 118.11)
+			(xy 139.7 118.11) (xy 135.89 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +1740,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 123.19 127 270)
+		(at 119.38 127 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1739,7 +1751,7 @@
 	)
 	(hierarchical_label "+Vin"
 		(shape input)
-		(at 125.73 116.84 0)
+		(at 121.92 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1838,7 +1850,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 143.51 127 270)
+		(at 139.7 127 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1926,7 +1938,7 @@
 	)
 	(hierarchical_label "+5V"
 		(shape output)
-		(at 143.51 113.03 90)
+		(at 139.7 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2771,7 +2783,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Jack-DC")
-		(at 111.76 119.38 0)
+		(at 107.95 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2779,7 +2791,7 @@
 		(dnp no)
 		(uuid "4bf1bb67-161a-4dad-bc22-7a17b6e8336e")
 		(property "Reference" "J6"
-			(at 113.0301 124.46 90)
+			(at 109.2201 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2800,7 @@
 			)
 		)
 		(property "Value" "Jack-DC"
-			(at 110.4901 124.46 90)
+			(at 106.6801 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2809,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 113.03 120.396 0)
+			(at 109.22 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 120.396 0)
+			(at 109.22 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2827,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 111.76 119.38 0)
+			(at 107.95 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3358,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 134.62 120.65 180)
+		(at 130.81 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3354,7 +3366,7 @@
 		(dnp no)
 		(uuid "77b657c2-e80e-4418-905b-811e719a55ff")
 		(property "Reference" "J25"
-			(at 135.8901 123.19 90)
+			(at 132.0801 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3375,7 @@
 			)
 		)
 		(property "Value" "Molex lite-trap"
-			(at 133.3501 123.19 90)
+			(at 129.5401 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3384,7 @@
 			)
 		)
 		(property "Footprint" "Extras:104238-0210"
-			(at 134.62 120.65 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3393,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 120.65 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3402,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 120.65 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,6 +3999,76 @@
 				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419"
 					(reference "U3")
 					(unit 9)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 144.78 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0e5c170-d869-4ee4-8882-02b3d93b886d")
+		(property "Reference" "J28"
+			(at 147.32 120.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 147.32 118.1101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0d6e0747-9f41-4169-ab41-59db495fd6c1")
+		)
+		(pin "1"
+			(uuid "5f5a25e0-e896-4c0d-b582-6604c4ea8e91")
+		)
+		(instances
+			(project "ml-hardware"
+				(path "/edb8a0df-1def-48df-b494-4a6b89ce8f9c/d397cdb8-1135-4612-aff9-bdf84d932419"
+					(reference "J28")
+					(unit 1)
 				)
 			)
 		)
