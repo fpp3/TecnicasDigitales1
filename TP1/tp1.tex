@@ -113,6 +113,89 @@
       $S0=\overline{D}$
     \end{minipage}
 
+    \section{Implementacion}
+
+     \begin{tikzpicture}
+	% Paths, nodes and wires:
+	\draw node[ieeestd and port] at (4.378, 12.72) {};
+	\draw node[ieeestd or port] at (1.602, 13.53) {};
+	\draw node[ieeestd or port] at (6.811, 11.5) {};
+	\draw node[ieeestd or port] at (2.189, 7.5) {};
+	\draw node[ieeestd and port] at (4.378, 8.72) {};
+	\draw node[ieeestd and port] at (2.189, 5.5) {};
+	\draw node[ieeestd and port] at (4.5, 4.5) {};
+	\draw node[ieeestd or port] at (6.811, 6.5) {};
+	\draw node[ieeestd and port] at (2.081, 1.5) {};
+	\draw node[ieeestd and port] at (2.081, -0.5) {};
+	\draw node[ieeestd or port] at (4.5, 0.5) {};
+	\draw node[ieeestd not port, rotate=-90] at (-6, 15.877) {};
+	\draw node[ieeestd not port, rotate=-90] at (-4, 15.877) {};
+	\draw node[ieeestd not port, rotate=-90] at (-2, 15.877) {};
+	\draw node[ieeestd not port, rotate=-90] at (0, 15.877) {};
+	\draw (-7, 18) -- (-7, -2);
+	\draw (-6, 16.754) |- (-7, 17);
+	\draw[draw={rgb,255:red,255;green,0;blue,0}] (-6, 15.219) |- (-6, -2);
+	\draw (-5, 18) |- (-5, -2);
+	\draw (-3, 18) |- (-3, -2);
+	\draw (-1, 18) -- (-1, -2);
+	\draw[draw={rgb,255:red,255;green,0;blue,0}] (-2, 15.219) -| (-2, -2);
+	\draw[draw={rgb,255:red,255;green,0;blue,0}] (0, 15.219) -- (0, -2);
+	\draw[draw={rgb,255:red,255;green,0;blue,0}] (-4, 15.219) |- (-4, -2);
+	\draw (-4, 16.754) |- (-5, 17);
+	\draw (-2, 16.754) |- (-3, 17);
+	\draw (0, 16.754) |- (-1, 17);
+	\draw node[circ] (N1) at (-7, 18) {} node[anchor=south] at (N1.north){$A$};
+	\draw node[circ] (N2) at (-5, 18) {} node[anchor=south] at (N2.north){$B$};
+	\draw node[circ] (N3) at (-3, 18) {} node[anchor=south] at (N3.north){$C$};
+	\draw node[circ] (N4) at (-1, 18) {} node[anchor=south] at (N4.north){$D$};
+	\draw node[circ] at (-1, 13.25) {};
+	\draw node[circ] at (-3, 13.81) {};
+	\draw node[circ] at (-5, 12.44) {};
+	\draw node[circ] at (-7, 11.19) {};
+	\draw node[circ] at (-4, 9) {};
+	\draw node[circ] at (-3, 7.78) {};
+	\draw node[circ] at (-1, 7.22) {};
+	\draw node[circ] at (-2, 5.22) {};
+	\draw node[circ] at (-5, 5.78) {};
+	\draw node[circ] at (0, 4.22) {};
+	\draw node[circ] at (-3, 1.78) {};
+	\draw node[circ] at (-1, 1.22) {};
+	\draw node[circ] at (-2, -0.22) {};
+	\draw node[circ] at (0, -0.78) {};
+	\draw node[circ] at (0, -2) {};
+	\draw node[circ] (N5) at (8.5, 11.5) {} node[anchor=west] at (N5.east){$S3$};
+	\draw node[circ] (N6) at (8.5, 6.53) {} node[anchor=west] at (N6.east){$S2$};
+	\draw node[circ] (N7) at (8.5, 0.53) {} node[anchor=west] at (N7.east){$S1$};
+	\draw node[circ] (N8) at (8.5, -2) {} node[anchor=west] at (N8.east){$S0$};
+	\draw (3.46, 9) -- (3.568, 9);
+	\draw (3.162, -0.5) -- (3.27, -0.5);
+	\draw (0.52, 13.81) -| (-3, 14);
+	\draw (0.52, 13.25) -| (-1, 13.5) -| (-1, 13);
+	\draw (3.297, 13) |- (2.683, 13.53);
+	\draw (3.297, 12.44) -| (-5, 12.5);
+	\draw (5.73, 11.78) |- (5.46, 12.72);
+	\draw (5.73, 11.22) -| (-7, 11);
+	\draw (3.297, 9) -| (-4, 9);
+	\draw (1.108, 7.78) -| (-3, 7.5);
+	\draw (1.108, 7.22) -| (-1, 7);
+	\draw (3.27, 7.5) |- (3.297, 8.44);
+	\draw (5.46, 8.72) -| (5.73, 6.78);
+	\draw (5.5, 4.5) -| (5.73, 6.22);
+	\draw (3.419, 4.78) |- (3.27, 5.5);
+	\draw (3.419, 4.22) -| (0, 4);
+	\draw (1.108, 5.78) -| (-5, 5.5);
+	\draw (1.108, 5.22) -| (-2, 5);
+	\draw (1, 1.78) -| (-3, 1.5);
+	\draw (1, 1.22) -| (-1, 1.5);
+	\draw (3.162, 1.5) -| (3.419, 0.78);
+	\draw (3.419, 0.22) |- (3.27, -0.5);
+	\draw (1, -0.22) -| (-2, -0.5) -- (-2, -0);
+	\draw (1, -0.78) -| (0, -0.5);
+	\draw (8.5, -2) -- (-0, -2);
+	\draw (5.581, 0.5) -| (8.5, 0.5);
+	\draw (7.892, 6.5) -| (8.5, 6.5);
+	\draw (7.892, 11.5) -- (8.5, 11.5);
+\end{tikzpicture}
     
 
 
