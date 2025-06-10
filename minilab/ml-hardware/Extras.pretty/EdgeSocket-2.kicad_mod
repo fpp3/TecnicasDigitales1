@@ -1,0 +1,106 @@
+(footprint "EdgeSocket-2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.731 -2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "66688c2f-3b5c-4d6c-bd77-1d68985d7936")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EdgeSocket-2"
+		(at 0 -4.191 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7085363-38df-4732-b9c7-01b2c5513875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71ec23ec-d8b5-4799-a7cb-11d50f6577b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f0d7e2a-4033-452e-a358-fa05750c548b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.3234 -1.3286)
+		(end 5.3234 0.5254)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "d6c419a2-fbe1-4e15-a6b4-9768a9a70e82")
+	)
+	(fp_poly
+		(pts
+			(xy -3.4798 -1.5652) (xy -8.382 -1.5652) (xy -8.382 0.7716) (xy -3.4798 0.7716) (xy -3.4798 4.6578)
+			(xy 3.5052 4.6578) (xy 3.5052 0.7716) (xy 8.4328 0.7716) (xy 8.4328 -1.5652)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c869b80c-64f5-4566-9ab3-d41f0528436e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.4016 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "99c6402b-ece3-4222-942b-ff9c7c53b07c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.905 2.54 270)
+		(size 4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76221c91-60fd-491b-9d49-39aef1b18192")
+	)
+	(pad "2" smd rect
+		(at 1.905 2.54 270)
+		(size 4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04b52acf-01b0-4c6d-a37c-d8558cb5cad1")
+	)
+	(embedded_fonts no)
+)

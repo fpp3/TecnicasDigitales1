@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/run/user/1000/gvfs/ftp:host=192.168.122.81/ml-hardware/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -664,6 +664,10 @@
     [
       "c8e92764-6d56-4fd9-a842-97ca096375d7",
       "Leds"
+    ],
+    [
+      "50d494f2-d484-43a0-8d2a-b6d7f45e4af0",
+      "Entrada alimentacion"
     ]
   ],
   "text_variables": {}
