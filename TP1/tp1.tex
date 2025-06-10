@@ -20,18 +20,18 @@
 
 
   \chapter{Conversor de BCD a XS3}
-    En este ejercicio realizamos la conversión de BCD (binariy coded decimal o decimal codificado a binario en español)
+    En este ejercicio realizamos la conversión de BCD (binary coded decimal o decimal codificado a binario en español)
     a XS-3 (Excess 3 o exceso a 3), que es un sistema casi igual a BCD, solo que a cada número se le suman 3 unidades
     antes de ser convertido a binario.
 
-    Por ejemplo, para convertir el numero 8, que en BCD es 1001, en XS-3 es $8+3=11$ y en codigo binario 1100. 
-    Siguiendo esta lógica, procedemos a armar la tabla de verdad.
+    Por ejemplo, para convertir el numero 8, que en BCD es 1001, en XS-3 es $8+3=11$ y en código binario 1100.
+    Siguiendo esta lógica, en la figura (\ref{tt.bcd.2.xs3}) tenemos la tabla de verdad para el conversor.
     \begin{figure}[!ht]
       \centering
       \begin{tabular}{|c|c|c|c|c||c|c|c|c|}
       \hline
       \multicolumn{5}{|c||}{Entrada BCD} & \multicolumn{4}{c|}{Salida XS-3} \\
-      A & B & C & D & & S3 & S2 & S1 & S0 \\
+      A & B & C & D & & $S_3$ & $S_2$ & $S_1$ & $S_0$ \\
       \hline
       0 & 0 & 0 & 0 & (0) & 0 & 0 & 1 & 1 \\
       0 & 0 & 0 & 1 & (1) & 0 & 1 & 0 & 0 \\
@@ -45,14 +45,16 @@
       1 & 0 & 0 & 1 & (9) & 1 & 1 & 0 & 0 \\
       \hline
       \end{tabular}
-      \caption{Tabla de verdad del conversor de BCD a XS3}
+      \caption{Tabla de verdad del conversor de BCD a XS3.}
+      \label{tt.bcd.2.xs3}
     \end{figure}
 
-    Luego se procede a realizar el mapa de karnaugh de cada salida para simplificar la función lógica:
+    Los mapas de Karnaugh para las funciones $S_3$, $S_2$, $S_1$ y $S_0$ son los de las figuras (\ref{km.bcd.2.xs3.s3}),
+    (\ref{km.bcd.2.xs3.s2}), (\ref{km.bcd.2.xs3.s1}) y (\ref{km.bcd.2.xs3.s0}).
 
     \begin{figure}[!ht]
       \centering
-      \begin{minipage}[t]{0.48\textwidth}
+      \begin{minipage}[t]{0.4\textwidth}
         \centering
         \begin{karnaugh-map}[4][4][1][$D$][$C$][$B$][$A$]
           \minterms{5,6,7,8,9}
@@ -67,8 +69,10 @@
           S_3 = A + B (C + D)
         \end{equation*}
         \caption{Mapa de Karnaugh para $S_3$ y su función.}
+        \label{km.bcd.2.xs3.s3}
       \end{minipage}
-      \begin{minipage}[t]{0.48\textwidth}
+      \hspace{1cm}
+      \begin{minipage}[t]{0.4\textwidth}
         \centering
         \begin{karnaugh-map}[4][4][1][$D$][$C$][$B$][$A$]
           \minterms{1,2,3,4,9}
@@ -83,8 +87,9 @@
           S_2 = \overline{B} \, (C + D) + B \, \overline{C} \,\overline{D}
         \end{equation*}
         \caption{Mapa de Karnaugh para $S_2$ y su función.}
+        \label{km.bcd.2.xs3.s2}
       \end{minipage}
-      \begin{minipage}[t]{0.48\textwidth}
+      \begin{minipage}[t]{0.4\textwidth}
         \vspace{5mm}
         \centering
         \begin{karnaugh-map}[4][4][1][$D$][$C$][$B$][$A$]
@@ -99,23 +104,29 @@
           S_1 = C \, D + \overline{C} \, \overline{D}
         \end{equation*}
         \caption{Mapa de Karnaugh para $S_1$ y su función.}
+        \label{km.bcd.2.xs3.s1}
       \end{minipage}
-      \begin{minipage}[t]{0.48\textwidth}
+      \hspace{1cm}
+      \begin{minipage}[t]{0.4\textwidth}
         \vspace{5mm}
         \centering
         \begin{karnaugh-map}[4][4][1][$D$][$C$][$B$][$A$]
           \minterms{0,2,4,6,8}
           \maxterms{1,3,5,7,9}
           \autoterms[X]
-          \implicantedge{0}{8}{2}{10}
+          \implicantedge{0}{8}{2}{10}  
         \end{karnaugh-map}
         \vspace{-5mm}
         \begin{equation*}
           S_0 = \overline{D}
         \end{equation*}
         \caption{Mapa de Karnaugh para $S_0$ y su función.}
+        \label{km.bcd.2.xs3.s0}
       \end{minipage}
     \end{figure}
+
+    Se implemento el circuito tal y como esta en las funciones de salida en la figura (\ref{crkt.ej1}) utilizando
+    compuertas AND de 2 entradas y OR de 2 entradas.
 
     \begin{figure}[!ht]
       \begin{tikzpicture}
@@ -166,10 +177,10 @@
         \draw node[circ] at (-2, -0.22) {};
         \draw node[circ] at (0, -0.78) {};
         \draw node[circ] at (0, -2) {};
-        \draw node[circ] (N5) at (8.5, 11.5) {} node[anchor=west] at (N5.east){$S3$};
-        \draw node[circ] (N6) at (8.5, 6.53) {} node[anchor=west] at (N6.east){$S2$};
-        \draw node[circ] (N7) at (8.5, 0.53) {} node[anchor=west] at (N7.east){$S1$};
-        \draw node[circ] (N8) at (8.5, -2) {} node[anchor=west] at (N8.east){$S0$};
+        \draw node[circ] (N5) at (8.5, 11.5) {} node[anchor=west] at (N5.east){$S_3$};
+        \draw node[circ] (N6) at (8.5, 6.53) {} node[anchor=west] at (N6.east){$S_2$};
+        \draw node[circ] (N7) at (8.5, 0.53) {} node[anchor=west] at (N7.east){$S_1$};
+        \draw node[circ] (N8) at (8.5, -2) {} node[anchor=west] at (N8.east){$S_0$};
         \draw (3.46, 9) -- (3.568, 9);
         \draw (3.162, -0.5) -- (3.27, -0.5);
         \draw (0.52, 13.81) -| (-3, 14);
@@ -199,26 +210,29 @@
         \draw (7.892, 6.5) -| (8.5, 6.5);
         \draw (7.892, 11.5) -- (8.5, 11.5);
       \end{tikzpicture}
-      \caption{Implementacion del Conversor BCD a XS3.}
+      \caption{Implementación del Conversor BCD a XS3.}
       \label{crkt.ej1}
     \end{figure}
     \newpage
 
-    En la figura (\ref{crkt.ej1.prot}) se puede observar el circuito implementado en la protoboard utilizando los IC CD4081
+    En la figura (\ref{falstad.ej1}) se puede observar el circuito implementado en Falstad como se va a implementar en
+    la Protoboard en base a las compuertas disponibles y comodidad de armado.
+
+    En la figura (\ref{crkt.ej1.prot}) se puede ver el circuito implementado en una Protoboard utilizando los IC CD4081
     (AND2), CD4073 (AND3), CD4049 (NOT6), HEF4071 (OR2) y, a falta de una compuerta OR2, se utilizo una de las
     compuertas del IC CD4072 (OR4) con 2 de sus entradas colocadas a masa (0 lógico).
 
     \begin{figure}[!ht]
       \centering
-      \includegraphics[width=1\textwidth]{images/ej1.png}
-      \caption{Implementación del Comparador binario en Falstad.}
+      \includegraphics[width=.8\textwidth]{images/ej1.png}
+      \caption{Implementación del Conversor BCD a XS3 en Falstad.}
       \label{falstad.ej1}
     \end{figure}
 
     \begin{figure}[!ht]
       \centering
       \includegraphics[width=.8\textwidth]{pictures/prot-ej1.jpeg}
-      \caption{Implementación del Conversor de BCD a XS3 en la protoboard.}
+      \caption{Implementación del Conversor de BCD a XS3 en la Protoboard.}
       \label{crkt.ej1.prot}
     \end{figure}
 
@@ -255,12 +269,12 @@
       \label{tt.bin.comp}
     \end{figure}
 
-    Los mapas de karnaugh para las funciones $S_2$, $S_1$ y $S_0$ son los de las figuras (\ref{km.bin.comp.s2}),
+    Los mapas de Karnaugh para las funciones $S_2$, $S_1$ y $S_0$ son los de las figuras (\ref{km.bin.comp.s2}),
     (\ref{km.bin.comp.s1}) y (\ref{km.bin.comp.s0}) respectivamente.
 
     \begin{figure}[!ht]
       \centering
-      \begin{minipage}[t]{0.48\textwidth}
+      \begin{minipage}[t]{0.4\textwidth}
         \centering
         \begin{karnaugh-map}[4][4][1][$B_0$][$B_1$][$A_0$][$A_1$]
           \minterms{4,8,9,12,13,14}
@@ -272,10 +286,11 @@
         \begin{equation*}
           S_0 = A_1 \, \overline{B_1} + A_0 \, \overline{B_1} \, \overline{B_0} + A_1 \, A_0 \, \overline{B_0}
         \end{equation*}
-        \caption{Mapa de Karnaugh para $S_0$ y su funcion.}
+        \caption{Mapa de Karnaugh para $S_0$ y su función.}
         \label{km.bin.comp.s0}
       \end{minipage}
-      \begin{minipage}[t]{0.48\textwidth}
+      \hspace{1cm}
+      \begin{minipage}[t]{0.4\textwidth}
         \centering
         \begin{karnaugh-map}[4][4][1][$B_0$][$B_1$][$A_0$][$A_1$]
           \minterms{1,2,3,6,7,11}
@@ -287,7 +302,7 @@
         \begin{equation*}
           S_1 = \overline{A_1} \, B_1 + \overline{A_1} \, \overline{A_0} \, B_0 + \overline{A_0} \, B_1 \, B_0
         \end{equation*}
-        \caption{Mapa de Karnaugh para $S_1$ y su funcion.}
+        \caption{Mapa de Karnaugh para $S_1$ y su función.}
         \label{km.bin.comp.s1}
       \end{minipage}
       \begin{minipage}[t]{1\textwidth}
@@ -306,20 +321,20 @@
                 \overline{B_1} \, B_0 + A_1 \, A_0 \, B_1 \, B_0 + A_1 \, \overline{A_0} \, B_1 \, \overline{B_0}\\[6pt]
           S_2 = \overline{S_0} \, \overline{S_1}
         \end{gather*}
-        \caption{Mapa de Karnaugh para $S_2$ y su funcion.}
+        \caption{Mapa de Karnaugh para $S_2$ y su función.}
         \label{km.bin.comp.s2}
       \end{minipage}
     \end{figure}
 
-    La funcion booleana para $S_2$ se puede simplificar utilizando las salidas $S_0$ y $S_1$. Ya que estas nunca van
+    La función booleana para $S_2$ se puede simplificar utilizando las salidas $S_0$ y $S_1$. Ya que estas nunca van
     a ser igual a 1 en simultaneo, pero, si van a ser igual a 0 en simultaneo. El caso en el que A no es mayor que B y
-    B tampoco es mayor que A, es cuando A y B son iguales, por lo que podriamos tomar las salidas $\overline{S_0}$ y
-    $\overline{S_1}$ y pasarlas por una compuerta AND para que produzcan el mismo resultado que la simplificacion de
+    B tampoco es mayor que A, es cuando A y B son iguales, por lo que podríamos tomar las salidas $\overline{S_0}$ y
+    $\overline{S_1}$ y pasarlas por una compuerta AND para que produzcan el mismo resultado que la simplificación de
     Karnaugh, pero con muchas menos compuertas.
 
-    Se implemento las operaciones booleanas tal y como estan en la figura (\ref{crkt.ej2}), utilizando compuertas AND
+    Se implemento las operaciones booleanas tal y como están en la figura (\ref{crkt.ej2}), utilizando compuertas AND
     de 2 entradas y OR de 2 entradas. En la figura (\ref{falstad.ej2}) se puede ver el circuito implementado en Falstad
-    como se va a implementar en la protoboard en base a las compuertas disponibles y comodidad de armado.
+    como se va a implementar en la Protoboard en base a las compuertas disponibles y comodidad de armado.
 
     \begin{figure}[!ht]
       \centering
@@ -417,24 +432,24 @@
         \draw node[circ] at (4.75, -2.28) {};
         \draw node[circ] at (6.25, -3.28) {};
       \end{tikzpicture}
-      \caption{Implementacion del Comparador binario.}
+      \caption{Implementación del Comparador binario.}
       \label{crkt.ej2}
     \end{figure}
 
     \begin{figure}[!ht]
       \centering
       \includegraphics[width=1\textwidth]{images/ej2.png}
-      \caption{Implementacion del Comparador binario en Falstad.}
+      \caption{Implementación del Comparador binario en Falsead.}
       \label{falstad.ej2}
     \end{figure}
 
-    En la figura (\ref{crkt.ej2.prot}) se puede ver el circuito implementado en la protoboard, utilizando los IC CD4081
+    En la figura (\ref{crkt.ej2.prot}) se puede ver el circuito implementado en la Protoboard, utilizando los IC CD4081
     (AND2), CD4073 (AND3), CD4049 (NOT6) y HEF4071 (OR2).
 
     \begin{figure}[!ht]
       \centering
       \includegraphics[width=.8\textwidth]{pictures/prot-ej2.jpg}
-      \caption{Implementacion del Comparador binario en la protoboard.}
+      \caption{Implementación del Comparador binario en la Protoboard.}
       \label{crkt.ej2.prot}
     \end{figure}
 
