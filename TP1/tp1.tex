@@ -20,6 +20,12 @@
 
 
   \chapter{Conversor de BCD a XS3}
+    En este ejercicio realizamos la conversion de BCD (binariy coded decimal o decimal codificado a binario en español)
+    a XS-3 (Excess 3 o exceso a 3), que es un sistema casi igual a BCD, solo que a cada numuero se le suman 3 unidades
+    antes de ser convertido a binario.
+
+    Por ejemplo, para convertir el numero 8, que en BCD es 1001, en XS-3 es $8+3=11$ y en codigo binario 1100. 
+    Siguiendo esta logica, procedemos a armar la tabla de verdad.
     \begin{figure}[!ht]
       \centering
       \begin{tabular}{|c|c|c|c|c||c|c|c|c|}
@@ -41,6 +47,8 @@
       \end{tabular}
       \caption{Tabla de verdad del conversor de BCD a XS3}
     \end{figure}
+
+    Luego se procede a realizar el mapa de karnaugh de cada salida para simplificar la funcion logica:
 
     \begin{figure}[!ht]
       \centering
@@ -194,6 +202,11 @@
       \caption{Implementacion del Conversor BCD a XS3.}
       \label{crkt.ej1}
     \end{figure}
+    \newpage
+
+    En la figura (\ref{crkt.ej1.prot}) se puede ver el circuito implementado en la protoboard, utilizando los IC CD4081
+    (AND2), CD4073 (AND3), CD4049 (NOT6), HEF4071 (OR2) y, a falta de una compuerta OR2, se utilizo una de las
+    compuertas del IC CD4072 (OR4) con 2 de sus entradas colocadas a masa (0 logico).
 
     \begin{figure}[!ht]
       \centering
