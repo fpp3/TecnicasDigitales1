@@ -20,12 +20,12 @@
 
 
   \chapter{Conversor de BCD a XS3}
-    En este ejercicio realizamos la conversion de BCD (binariy coded decimal o decimal codificado a binario en español)
-    a XS-3 (Excess 3 o exceso a 3), que es un sistema casi igual a BCD, solo que a cada numuero se le suman 3 unidades
+    En este ejercicio realizamos la conversión de BCD (binariy coded decimal o decimal codificado a binario en español)
+    a XS-3 (Excess 3 o exceso a 3), que es un sistema casi igual a BCD, solo que a cada número se le suman 3 unidades
     antes de ser convertido a binario.
 
     Por ejemplo, para convertir el numero 8, que en BCD es 1001, en XS-3 es $8+3=11$ y en codigo binario 1100. 
-    Siguiendo esta logica, procedemos a armar la tabla de verdad.
+    Siguiendo esta lógica, procedemos a armar la tabla de verdad.
     \begin{figure}[!ht]
       \centering
       \begin{tabular}{|c|c|c|c|c||c|c|c|c|}
@@ -48,7 +48,7 @@
       \caption{Tabla de verdad del conversor de BCD a XS3}
     \end{figure}
 
-    Luego se procede a realizar el mapa de karnaugh de cada salida para simplificar la funcion logica:
+    Luego se procede a realizar el mapa de karnaugh de cada salida para simplificar la función lógica:
 
     \begin{figure}[!ht]
       \centering
@@ -66,7 +66,7 @@
         \begin{equation*}
           S_3 = A + B (C + D)
         \end{equation*}
-        \caption{Mapa de Karnaugh para $S_3$ y su funcion.}
+        \caption{Mapa de Karnaugh para $S_3$ y su función.}
       \end{minipage}
       \begin{minipage}[t]{0.48\textwidth}
         \centering
@@ -82,7 +82,7 @@
         \begin{equation*}
           S_2 = \overline{B} \, (C + D) + B \, \overline{C} \,\overline{D}
         \end{equation*}
-        \caption{Mapa de Karnaugh para $S_2$ y su funcion.}
+        \caption{Mapa de Karnaugh para $S_2$ y su función.}
       \end{minipage}
       \begin{minipage}[t]{0.48\textwidth}
         \vspace{5mm}
@@ -98,7 +98,7 @@
         \begin{equation*}
           S_1 = C \, D + \overline{C} \, \overline{D}
         \end{equation*}
-        \caption{Mapa de Karnaugh para $S_1$ y su funcion.}
+        \caption{Mapa de Karnaugh para $S_1$ y su función.}
       \end{minipage}
       \begin{minipage}[t]{0.48\textwidth}
         \vspace{5mm}
@@ -113,7 +113,7 @@
         \begin{equation*}
           S_0 = \overline{D}
         \end{equation*}
-        \caption{Mapa de Karnaugh para $S_0$ y su funcion.}
+        \caption{Mapa de Karnaugh para $S_0$ y su función.}
       \end{minipage}
     \end{figure}
 
@@ -204,21 +204,21 @@
     \end{figure}
     \newpage
 
-    En la figura (\ref{crkt.ej1.prot}) se puede ver el circuito implementado en la protoboard, utilizando los IC CD4081
+    En la figura (\ref{crkt.ej1.prot}) se puede observar el circuito implementado en la protoboard utilizando los IC CD4081
     (AND2), CD4073 (AND3), CD4049 (NOT6), HEF4071 (OR2) y, a falta de una compuerta OR2, se utilizo una de las
-    compuertas del IC CD4072 (OR4) con 2 de sus entradas colocadas a masa (0 logico).
+    compuertas del IC CD4072 (OR4) con 2 de sus entradas colocadas a masa (0 lógico).
 
     \begin{figure}[!ht]
       \centering
       \includegraphics[width=1\textwidth]{images/ej1.png}
-      \caption{Implementacion del Comparador binario en Falstad.}
+      \caption{Implementación del Comparador binario en Falstad.}
       \label{falstad.ej1}
     \end{figure}
 
     \begin{figure}[!ht]
       \centering
       \includegraphics[width=.8\textwidth]{pictures/prot-ej1.jpeg}
-      \caption{Implementacion del Conversor de BCD a XS3 en la protoboard.}
+      \caption{Implementación del Conversor de BCD a XS3 en la protoboard.}
       \label{crkt.ej1.prot}
     \end{figure}
 
