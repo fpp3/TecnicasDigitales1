@@ -3383,7 +3383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Extras:104238-0210"
+		(property "Footprint" "Extras:Molex-Lite_trap"
 			(at 130.81 120.65 0)
 			(effects
 				(font
