@@ -1,0 +1,17 @@
+
+#PINLOCK_BEGIN
+
+#Wed Aug 27 11:14:15 2025
+
+NET "BCD<0>"         LOC =  "S:PIN34";
+NET "BCD<1>"         LOC =  "S:PIN39";
+NET "BCD<2>"         LOC =  "S:PIN29";
+NET "BCD<3>"         LOC =  "S:PIN40";
+NET "SEG<0>"         LOC =  "S:PIN11";
+NET "SEG<1>"         LOC =  "S:PIN25";
+NET "SEG<2>"         LOC =  "S:PIN4";
+NET "SEG<3>"         LOC =  "S:PIN37";
+NET "SEG<4>"         LOC =  "S:PIN1";
+NET "SEG<5>"         LOC =  "S:PIN19";
+NET "SEG<6>"         LOC =  "S:PIN35";
+#PINLOCK_END

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "uni9000_ver" -lib "aim_ver" -lib "cpld_ver" -lib "xilinxcorelib_ver" -o "/home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/test_isim_beh.exe" -prj "/home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/test_beh.prj" "work.test" "work.glbl" -mt "off" -v "1" 

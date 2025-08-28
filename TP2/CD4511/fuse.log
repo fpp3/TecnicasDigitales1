@@ -1,0 +1,164 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib uni9000_ver -lib aim_ver -lib cpld_ver -lib xilinxcorelib_ver -o /home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/test_isim_beh.exe -prj /home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/test_beh.prj work.test work.glbl -mt off -v 1 
+ISim P.20131013 (signature 0xfbc00daa)
+Turned off multi-threading for compilation
+Determining compilation order of HDL files
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/xilinxsim.ini"
+The vhdl library search path for library \"std\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/std\"
+The veri library search path for library \"std\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/std\"
+The vhdl library search path for library \"ieee\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/ieee\"
+The veri library search path for library \"ieee\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/ieee\"
+The vhdl library search path for library \"ieee_proposed\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/ieee_proposed\"
+The veri library search path for library \"ieee_proposed\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/ieee_proposed\"
+The vhdl library search path for library \"vl\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/vl\"
+The veri library search path for library \"vl\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/vl\"
+The vhdl library search path for library \"synopsys\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/synopsys\"
+The veri library search path for library \"synopsys\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/synopsys\"
+The vhdl library search path for library \"simprim\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/simprim\"
+The veri library search path for library \"simprim\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/simprim\"
+The vhdl library search path for library \"unisim\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/unisim\"
+The veri library search path for library \"unisim\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/unisim\"
+The vhdl library search path for library \"unimacro\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/unimacro\"
+The veri library search path for library \"unimacro\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/unimacro\"
+The vhdl library search path for library \"aim\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/aim\"
+The veri library search path for library \"aim\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/aim\"
+The vhdl library search path for library \"cpld\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/cpld\"
+The veri library search path for library \"cpld\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/cpld\"
+The vhdl library search path for library \"pls\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/pls\"
+The veri library search path for library \"pls\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/pls\"
+The vhdl library search path for library \"xilinxcorelib\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/xilinxcorelib\"
+The veri library search path for library \"xilinxcorelib\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/vhdl/hdp/lin64/xilinxcorelib\"
+The vhdl library search path for library \"aim_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/aim_ver\"
+The veri library search path for library \"aim_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/aim_ver\"
+The vhdl library search path for library \"cpld_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/cpld_ver\"
+The veri library search path for library \"cpld_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/cpld_ver\"
+The vhdl library search path for library \"simprims_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/simprims_ver\"
+The veri library search path for library \"simprims_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/simprims_ver\"
+The vhdl library search path for library \"unisims_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/unisims_ver\"
+The veri library search path for library \"unisims_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/unisims_ver\"
+The vhdl library search path for library \"uni9000_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/uni9000_ver\"
+The veri library search path for library \"uni9000_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/uni9000_ver\"
+The vhdl library search path for library \"unimacro_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/unimacro_ver\"
+The veri library search path for library \"unimacro_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/unimacro_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/xilinxcorelib_ver\"
+The vhdl library search path for library \"secureip\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/xip/secureip\"
+The veri library search path for library \"secureip\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/xip/secureip\"
+INFO:Simulator:958 - Library Mapping: Sourcing library mapping file "xilinxsim.ini"
+The vhdl library search path for library \"work\" is now \"/home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/isim/work\"
+The veri library search path for library \"work\" is now \"/home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/isim/work\"
+The vhdl library search path for library \"uni9000_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/uni9000_ver\"
+The veri library search path for library \"uni9000_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/uni9000_ver\"
+The vhdl library search path for library \"aim_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/aim_ver\"
+The veri library search path for library \"aim_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/aim_ver\"
+The vhdl library search path for library \"cpld_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/cpld_ver\"
+The veri library search path for library \"cpld_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/cpld_ver\"
+The vhdl library search path for library \"xilinxcorelib_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/xilinxcorelib_ver\"
+The veri library search path for library \"xilinxcorelib_ver\" is now \"/opt/Xilinx/14.7/ISE_DS/ISE/verilog/hdp/lin64/xilinxcorelib_ver\"
+
+-- Dumping Relevant Parameters
+XILINX = /opt/Xilinx/14.7/ISE_DS/ISE/
+PATH = /opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/util:/opt/Xilinx/14.7/ISE_DS/ISE/../../../DocNav:/opt/Xilinx/14.7/ISE_DS/PlanAhead/bin:/opt/Xilinx/14.7/ISE_DS/EDK/bin/lin64:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/powerpc-eabi/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/arm/lin/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_be/bin:/opt/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/linux_toolchain/lin64_le/bin:/opt/Xilinx/14.7/ISE_DS/common/bin/lin64:/home/gaston/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/opt/android-sdk/cmdline-tools/latest/bin:/opt/android-sdk/platform-tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/jvm/java-17-openjdk/bin:/opt/android-sdk/emulator:/opt/flutter/bin
+LD_LIBRARY_PATH = /opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64:/opt/Xilinx/14.7/ISE_DS/ISE/lib/lin64:/opt/Xilinx/14.7/ISE_DS/EDK/lib/lin64:/opt/Xilinx/14.7/ISE_DS/common/lib/lin64
+PWD = /home/gaston
+CWD = /home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511
+GCC = /usr/bin/gcc
+-- Done dumping Relevant Parameters
+
+-- Dumping System Information
+sysname = Linux
+release = 6.12.41-1-MANJARO
+version = #1 SMP PREEMPT_DYNAMIC Fri, 01 Aug 2025 09:46:16 +0000
+machine = x86_64
+ram = 5921460 KB
+-- Done dumping System Information
+
+-- Dumping Loaded Modules
+
+/lib64/ld-linux-x86-64.so.2
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libCit_Core.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libICR.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libMiniZip.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libPersonalityModule.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libPort_Std.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libPortability.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libPrjrep_Clientac.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libStaticFileParsers.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libThread.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libUtilities.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libVrfc_Verific.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libVrfc_Vhdl_Sort.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libZlib.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_bzip2-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_date_time-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_filesystem-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_iostreams-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_program_options-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_regex-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_system-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_thread-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libboost_zlib-gcc41-mt-p-1_38.so.1.38.0
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libisl_iostreams.so
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libstdc++.so.6
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libstlport.so.5.1
+/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64/libxercesc.so
+/opt/Xilinx/14.7/ISE_DS/ISE/lib/lin64/libUtilC_MessageDispatcher.so
+/usr/lib/libc.so.6
+/usr/lib/libdl.so.2
+/usr/lib/libgcc_s.so.1
+/usr/lib/libm.so.6
+/usr/lib/libpthread.so.0
+/usr/lib/libuuid.so.1
+linux-vdso.so.1
+-- Done dumping Loaded Modules
+
+-- Dumping library mapping
+aim=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/aim
+aim_ver=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/aim_ver
+cpld=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/cpld
+cpld_ver=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/cpld_ver
+ieee=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/ieee
+ieee_proposed=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/ieee_proposed
+pls=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/pls
+secureip=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/xip/secureip
+simprim=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/simprim
+simprims_ver=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/simprims_ver
+std=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/std
+synopsys=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/synopsys
+uni9000_ver=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/uni9000_ver
+unimacro=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/unimacro
+unimacro_ver=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/unimacro_ver
+unisim=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/unisim
+unisims_ver=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/unisims_ver
+vl=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/vl
+work=isim/work
+xilinxcorelib=/opt/Xilinx/14.7/ISE_DS/ISE/./vhdl/hdp/lin64/xilinxcorelib
+xilinxcorelib_ver=/opt/Xilinx/14.7/ISE_DS/ISE/./verilog/hdp/lin64/xilinxcorelib_ver
+-- Done dumping library mapping
+
+Analyzing Verilog file "/home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/CD4511.v" into library work
+Parsing module <CD4511>.
+Analyzing Verilog file "/home/gaston/Documentos/3RO/Tecnicas digitales/TP2/CD4511/test.v" into library work
+Parsing module <test>.
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing module <glbl>.
+Starting static elaboration
+
+Elaborating module <test>.
+
+Elaborating module <glbl>.
+Completed static elaboration
+Fuse Memory Usage: 82912 KB
+Fuse CPU Usage: 430 ms
+Compiling module CD4511 - m_03529560456348082198_0948709971
+Compiling isim/test_isim_beh.exe.sim/work/m_03529560456348082198_0948709971.c to isim/test_isim_beh.exe.sim/work/m_03529560456348082198_0948709971.lin64.o with command:
+"/usr/bin/gcc" -Wa,-W  -O  -fPIC  -m64  -c -o "isim/test_isim_beh.exe.sim/work/m_03529560456348082198_0948709971.lin64.o" -I"/opt/Xilinx/14.7/ISE_DS/ISE/./data/include" "isim/test_isim_beh.exe.sim/work/m_03529560456348082198_0948709971.c"
+Compiling module test - m_07009671670128245176_1985558087
+Compiling isim/test_isim_beh.exe.sim/work/m_07009671670128245176_1985558087.c to isim/test_isim_beh.exe.sim/work/m_07009671670128245176_1985558087.lin64.o with command:
+"/usr/bin/gcc" -Wa,-W  -O  -fPIC  -m64  -c -o "isim/test_isim_beh.exe.sim/work/m_07009671670128245176_1985558087.lin64.o" -I"/opt/Xilinx/14.7/ISE_DS/ISE/./data/include" "isim/test_isim_beh.exe.sim/work/m_07009671670128245176_1985558087.c"
+Compiling module glbl - m_16541823861846354283_2073120511
+Compiling isim/test_isim_beh.exe.sim/work/m_16541823861846354283_2073120511.c to isim/test_isim_beh.exe.sim/work/m_16541823861846354283_2073120511.lin64.o with command:
+"/usr/bin/gcc" -Wa,-W  -O  -fPIC  -m64  -c -o "isim/test_isim_beh.exe.sim/work/m_16541823861846354283_2073120511.lin64.o" -I"/opt/Xilinx/14.7/ISE_DS/ISE/./data/include" "isim/test_isim_beh.exe.sim/work/m_16541823861846354283_2073120511.c"
+Time Resolution for simulation is 1ps.
+Compiling isim/test_isim_beh.exe.sim/work/test_isim_beh.exe_main.c to isim/test_isim_beh.exe.sim/work/test_isim_beh.exe_main.lin64.o with command:
+"/usr/bin/gcc" -Wa,-W  -O  -fPIC  -m64  -c -o "isim/test_isim_beh.exe.sim/work/test_isim_beh.exe_main.lin64.o" -I"/opt/Xilinx/14.7/ISE_DS/ISE/./data/include" "isim/test_isim_beh.exe.sim/work/test_isim_beh.exe_main.c"
+FATAL_ERROR:Simulator:Fuse.cpp:500:1.133 - Failed to compile generated C file isim/test_isim_beh.exe.sim/work/test_isim_beh.exe_main.c   For technical support on this issue, please visit http://www.xilinx.com/support.

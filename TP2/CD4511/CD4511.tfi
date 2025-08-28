@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+CD4511 instance_name (
+    .BCD(BCD), 
+    .SEG(SEG)
+    );
+
+
