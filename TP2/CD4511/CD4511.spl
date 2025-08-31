@@ -1,8 +1,0 @@
-[Inputs]
-=BCD[3:0]=
-[Outputs]
-=SEG[6:0]=
-[BiDir]
-[ATTRIBUTES]
-VeriModel CD4511
-
