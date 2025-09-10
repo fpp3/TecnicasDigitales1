@@ -1,1 +1,15 @@
 \chapter{Implementación en Verilog}
+  A continuación se adjunta el codigo en Verilog del conversor BCD a display de 7 segmentos. Las entradas de control no
+  fueron consideradas para el programa.
+
+  \lstinputlisting[language=Verilog, caption=Implementación del conversor de BCD a display de 7 segmentos]{cd4511.ISEProj/cd4511.v}
+
+  En la sección \ref{annex:rtl} puede ver la síntesis que realizo el programa.
+
+  \section{Simulación}
+    Para corroborar el correcto funcionamiento del programa, antes de programar la placa de desarrollo CPLD, realizamos
+    una simulación. El Verilog Test Fixture se puede ver a continuación:
+    
+    \lstinputlisting[language=Verilog, caption=Secuencia de pruebas para la simulación.]{cd4511.ISEProj/cd4511_VTF.v}
+
+    En la sección \ref{annex:sim} puede ver los resultados de la simulación del programa hecho en Verilog.
